@@ -3,7 +3,7 @@ body {
 }
 
 nav {
-    background-color: #e11515ce;
+    background-color:#1F363D;
     text-align: center;
 } 
 
@@ -11,9 +11,41 @@ nav {
     list-style-type: none;
     padding: 0;
     margin: 0;
-    display: flex;
+    display: inline-flex;
 }
 
 .menu li{
     position: relative;
+}
+
+.menu li a{
+    display: block;
+    padding: 25px 30px;
+    color:white;
+    text-decoration: none;
+}
+
+.menu li a:hover{
+    background-color:#40798C;
+}
+
+.submenu {
+    display: none;
+    position: absolute;
+    background-color: #1F363D;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu li:hover .submenu{
+    display: block;
+}
+
+.submenu li a{
+    padding: 20px 25px;
+}
+
+.submenu li a:hover {
+    background-color: #40798C;
 }
