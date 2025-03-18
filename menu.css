@@ -50,3 +50,21 @@ nav {
 .submenu li a:hover {
     background-color: #2b974f;
 }
+
+.sobre{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: inline-flex;
+}
+
+.sobre li a{
+    display: block;
+    padding: 25px 30px;
+    color:white;
+    text-decoration: none;
+}
+
+.sobre li a:hover{
+    background-color:#255F38;
+}

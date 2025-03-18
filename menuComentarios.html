@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comentários - Mecânica</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="menuInicio.html">Início</a></li>
+                <li><a href="menuSobre.html">Sobre</a></li>
+                <li><a href="menuServicos.html">Serviços</a></li>
+                <li><a href="menuProdutos.html">Produtos</a></li>
+                <li><a href="menuContato.html">Contato</a></li>
+                <li><a href="menuComentarios.html">Comentários</a></li>
+
+            </ul>
+        </nav>
+    </header>
+<section class="comentarios">
+    <h1>Comentários de Clientes</h1>
+    <p>Veja o que nossos clientes têm a dizer sobre os serviços prestados por nossa mecânica. A nossa missão é garantir satisfação e confiança em cada serviço realizado.</p>
+
+    <div class="comentario">
+        <h2>Maria Silva</h2>
+        <p class="data">Publicado em 20 de Fevereiro de 2025</p>
+        <p>"Excelente atendimento! Meu carro estava com problemas no motor e a equipe foi muito ágil em resolver. Fiquei impressionada com o cuidado e a atenção aos detalhes. Super recomendo!"</p>
+    </div>
+
+    <div class="comentario">
+        <h2>João Souza</h2>
+        <p class="data">Publicado em 15 de Fevereiro de 2025</p>
+        <p>"Fiz a troca de pneus e alinhamento, e o serviço foi rápido e eficiente. O pessoal da mecânica é muito atencioso e bem preparado. Recomendo a todos!"</p>
+    </div>
+
+    <div class="comentario">
+        <h2>Ana Costa</h2>
+        <p class="data">Publicado em 10 de Janeiro de 2025</p>
+        <p>"Gostei muito do atendimento! A mecânica tem um ambiente acolhedor e os preços são justos. O problema que eu tinha no ar-condicionado foi resolvido rapidinho. Agradeço pelo profissionalismo!"</p>
+    </div>
+
+    <div class="comentario">
+        <h2>Rafael Almeida</h2>
+        <p class="data">Publicado em 5 de Janeiro de 2025</p>
+        <p>"A minha experiência foi ótima! A mecânica fez a manutenção preventiva do meu carro e fiquei tranquilo sabendo que estou cuidando da segurança do meu veículo. Com certeza voltarei!"</p>
+    </div>
+
+    <h2>Deixe seu comentário</h2>
+    <form action="envio_comentario.php" method="POST">
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" required>
+        
+        <label for="comentario">Comentário:</label>
+        <textarea id="comentario" name="comentario" rows="4" required></textarea>
+
+        <button type="submit">Enviar Comentário</button>
+    </form>
+</section>
+
+<footer>
+    <p>&copy; 2025 Mecânica TecDiesel. Todos os direitos reservados.</p>
+</footer>
+</body>
+</html>
