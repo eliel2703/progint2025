@@ -68,3 +68,75 @@ nav {
 .sobre li a:hover{
     background-color:#255F38;
 }
+
+.servicos{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: inline-flex;
+}
+
+.servicos li a{
+    display: block;
+    padding: 25px 30px;
+    color:white;
+    text-decoration: none;
+}
+
+.servicos li a:hover{
+    background-color:#255F38;
+}
+
+.produtos{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: inline-flex;
+}
+
+.produtos li a{
+    display: block;
+    padding: 25px 30px;
+    color:white;
+    text-decoration: none;
+}
+
+.produtos li a:hover{
+    background-color:#255F38;
+}
+
+.contato{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: inline-flex;
+}
+
+.contato li a{
+    display: block;
+    padding: 25px 30px;
+    color:white;
+    text-decoration: none;
+}
+
+.contato li a:hover{
+    background-color:#255F38;
+}
+
+.comentarios{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: inline-flex;
+}
+
+.comentarios li a{
+    display: block;
+    padding: 25px 30px;
+    color:white;
+    text-decoration: none;
+}
+
+.comentarios li a:hover{
+    background-color:#255F38;
+}
