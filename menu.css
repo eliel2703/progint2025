@@ -58,6 +58,13 @@ nav {
     display: inline-flex;
 }
 
+.sobrePage{
+    padding: 40px 15px;
+    text-align: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
 .sobre li a{
     display: block;
     padding: 25px 30px;
@@ -67,6 +74,44 @@ nav {
 
 .sobre li a:hover{
     background-color:#255F38;
+}
+
+.sobrePage h1, .sobrePage h2 {
+    color: #27391C;
+}
+
+.sobrePage p {
+    font-size: 1rem;
+    line-height: 1;
+    color: #555;
+    max-width: 700px;
+    margin: 20px auto;
+}
+
+.sobrePage ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 20px auto;
+    text-align: left;
+    max-width: 700px;
+}
+
+.sobrePage ul li {
+    font-size: 1.1rem;
+    color: #333;
+    padding: 5px;
+}
+
+footer {
+    background-color: #27391C;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 30px;
+}
+
+footer p {
+    margin: 0;
 }
 
 .servicos{
