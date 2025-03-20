@@ -160,8 +160,8 @@ footer p {
 }
 
 img {
-    width: 300px;
-    height: 200px;
+    width: 500px;
+    height: 300px;
     object-fit: cover; 
   }
 
@@ -218,6 +218,13 @@ img {
     display: inline-flex;
 }
 
+.contatoPage{
+    padding: 40px 15px;
+    text-align: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
 .contato li a{
     display: block;
     padding: 25px 30px;
@@ -229,11 +236,39 @@ img {
     background-color:#255F38;
 }
 
+.contatoPage p {
+    font-size: 1rem;
+    line-height: 1;
+    color: #555;
+    max-width: 700px;
+    margin: 20px auto;
+}
+
+.contatoPage ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 20px auto;
+    max-width: 700px;
+}
+
+.contatoPage ul li {
+    font-size: 1.1rem;
+    color: #333;
+    padding: 5px;
+}
+
 .comentarios{
     list-style-type: none;
     padding: 0;
     margin: 0;
     display: inline-flex;
+}
+
+.comentariosPage{
+    padding: 40px 15px;
+    text-align: center;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 .comentarios li a{
@@ -245,4 +280,25 @@ img {
 
 .comentarios li a:hover{
     background-color:#255F38;
+}
+
+.comentariosPage p {
+    font-size: 1rem;
+    line-height: 1;
+    color: #555;
+    max-width: 700px;
+    margin: 20px auto;
+}
+
+.comentariosPage ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 20px auto;
+    max-width: 700px;
+}
+
+.comentariosPage ul li {
+    font-size: 1.1rem;
+    color: #333;
+    padding: 5px;
 }
