@@ -298,6 +298,158 @@ nav {
     padding: 5px;
 }
 
+.produto1{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: inline-flex;
+}
+
+.produto1Page{
+    padding: 40px 15px;
+    text-align: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.produto1 li a{
+    display: block;
+    padding: 25px 30px;
+    color:white;
+    text-decoration: none;
+}
+
+.produto1 li a:hover{
+    background-color:#255F38;
+}
+
+.produto1Page h1, .produto1Page h2 {
+    color: #27391C;
+}
+
+.produto1Page p {
+    font-size: 1rem;
+    line-height: 1;
+    color: #555;
+    max-width: 700px;
+    margin: 20px auto;
+}
+
+.produto1Page ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 20px auto;
+    max-width: 700px;
+}
+
+.produto1Page ul li {
+    font-size: 1.1rem;
+    color: #333;
+    padding: 5px;
+}
+
+.produto2{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: inline-flex;
+}
+
+.produto2Page{
+    padding: 40px 15px;
+    text-align: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.produto2 li a{
+    display: block;
+    padding: 25px 30px;
+    color:white;
+    text-decoration: none;
+}
+
+.produto2 li a:hover{
+    background-color:#255F38;
+}
+
+.produto2Page h1, .produto2Page h2 {
+    color: #27391C;
+}
+
+.produto2Page p {
+    font-size: 1rem;
+    line-height: 1;
+    color: #555;
+    max-width: 700px;
+    margin: 20px auto;
+}
+
+.produto2Page ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 20px auto;
+    max-width: 700px;
+}
+
+.produto2Page ul li {
+    font-size: 1.1rem;
+    color: #333;
+    padding: 5px;
+}
+
+
+.produto3{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: inline-flex;
+}
+
+.produto3Page{
+    padding: 40px 15px;
+    text-align: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.produto3 li a{
+    display: block;
+    padding: 25px 30px;
+    color:white;
+    text-decoration: none;
+}
+
+.produto3 li a:hover{
+    background-color:#255F38;
+}
+
+.produto3Page h1, .produto3Page h2 {
+    color: #27391C;
+}
+
+.produto3Page p {
+    font-size: 1rem;
+    line-height: 1;
+    color: #555;
+    max-width: 700px;
+    margin: 20px auto;
+}
+
+.produto3Page ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 20px auto;
+    max-width: 700px;
+}
+
+.produto3Page ul li {
+    font-size: 1.1rem;
+    color: #333;
+    padding: 5px;
+}
+
+
 img {
     width: 500px;
     height: 300px;
