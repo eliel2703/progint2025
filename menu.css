@@ -4,30 +4,30 @@ body {
 }
 
 nav {
-    background-color: #27391C;
+    background-color:#27391C;
     text-align: center;
-}
+} 
 
-.menu {
+.menu{
     list-style-type: none;
     padding: 0;
     margin: 0;
     display: inline-flex;
 }
 
-.menu li {
+.menu li{
     position: relative;
 }
 
-.menu li a {
+.menu li a{
     display: block;
     padding: 25px 30px;
-    color: white;
+    color:white;
     text-decoration: none;
 }
 
-.menu li a:hover {
-    background-color: #255F38;
+.menu li a:hover{
+    background-color:#255F38;
 }
 
 .submenu {
@@ -39,11 +39,11 @@ nav {
     margin: 0;
 }
 
-.menu li:hover .submenu {
+.menu li:hover .submenu{
     display: block;
 }
 
-.submenu li a {
+.submenu li a{
     padding: 20px 25px;
 }
 
@@ -51,33 +51,32 @@ nav {
     background-color: #2b974f;
 }
 
-.sobre {
+.sobre{
     list-style-type: none;
     padding: 0;
     margin: 0;
     display: inline-flex;
 }
 
-.sobrePage {
+.sobrePage{
     padding: 40px 15px;
     text-align: center;
     max-width: 1200px;
     margin: 0 auto;
 }
 
-.sobre li a {
+.sobre li a{
     display: block;
     padding: 25px 30px;
-    color: white;
+    color:white;
     text-decoration: none;
 }
 
-.sobre li a:hover {
-    background-color: #255F38;
+.sobre li a:hover{
+    background-color:#255F38;
 }
 
-.sobrePage h1,
-.sobrePage h2 {
+.sobrePage h1, .sobrePage h2 {
     color: #27391C;
 }
 
@@ -102,29 +101,32 @@ nav {
     padding: 5px;
 }
 
-.servicos {
+.servicos{
     list-style-type: none;
     padding: 0;
     margin: 0;
     display: inline-flex;
 }
 
-.servicosPage {
+.servicosPage{
     padding: 40px 15px;
     text-align: center;
     max-width: 1200px;
     margin: 0 auto;
 }
 
-.servicos li a {
+.servicos li a{
     display: block;
     padding: 25px 30px;
-    color: white;
+    color:white;
     text-decoration: none;
 }
 
-.servicos li a:hover {
-    background-color: #255F38;
+.servicos li a:hover{
+    background-color:#255F38;
+}
+.servicosPage h1, .servicosPage h2 {
+    color: #27391C;
 }
 
 .servicosPage p {
@@ -148,29 +150,32 @@ nav {
     padding: 5px;
 }
 
-.produtos {
+  .produtos{
     list-style-type: none;
     padding: 0;
     margin: 0;
     display: inline-flex;
 }
 
-.produtosPage {
+.produtosPage{
     padding: 40px 15px;
     text-align: center;
     max-width: 1200px;
     margin: 0 auto;
 }
 
-.produtos li a {
+.produtos li a{
     display: block;
     padding: 25px 30px;
-    color: white;
+    color:white;
     text-decoration: none;
 }
 
-.produtos li a:hover {
-    background-color: #255F38;
+.produtos li a:hover{
+    background-color:#255F38;
+}
+.produtosPage h1, .produtosPage h2 {
+    color: #27391C;
 }
 
 .produtosPage p {
@@ -194,29 +199,32 @@ nav {
     padding: 5px;
 }
 
-.contato {
+.contato{
     list-style-type: none;
     padding: 0;
     margin: 0;
     display: inline-flex;
 }
 
-.contatoPage {
+.contatoPage{
     padding: 40px 15px;
     text-align: center;
     max-width: 1200px;
     margin: 0 auto;
 }
 
-.contato li a {
+.contato li a{
     display: block;
     padding: 25px 30px;
-    color: white;
+    color:white;
     text-decoration: none;
 }
 
-.contato li a:hover {
-    background-color: #255F38;
+.contato li a:hover{
+    background-color:#255F38;
+}
+.contatoPage h1, .contatoPage h2 {
+    color: #27391C;
 }
 
 .contatoPage p {
@@ -240,29 +248,33 @@ nav {
     padding: 5px;
 }
 
-.comentarios {
+.comentarios{
     list-style-type: none;
     padding: 0;
     margin: 0;
     display: inline-flex;
 }
 
-.comentariosPage {
+.comentariosPage{
     padding: 40px 15px;
     text-align: center;
     max-width: 1200px;
     margin: 0 auto;
 }
 
-.comentarios li a {
+.comentarios li a{
     display: block;
     padding: 25px 30px;
-    color: white;
+    color:white;
     text-decoration: none;
 }
 
-.comentarios li a:hover {
-    background-color: #255F38;
+.comentarios li a:hover{
+    background-color:#255F38;
+}
+
+.comentariosPage h1, .comentariosPage h2 {
+    color: #27391C;
 }
 
 .comentariosPage p {
@@ -289,8 +301,8 @@ nav {
 img {
     width: 500px;
     height: 300px;
-    object-fit: cover;
-}
+    object-fit: cover; 
+  }
 
 footer {
     background-color: #27391C;
